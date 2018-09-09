@@ -1,0 +1,76 @@
+// Color scheme variables
+
+// Primary color
+$tm-primary-color: #0089ff; //#007eff; //#6713d2; //#007eff;
+// Body background
+$tm-body-background: linear-gradient(to top, #0065fd 0%, #0089ff 100%); //linear-gradient(to top, #3300fd 0%, #007eff 100%); //linear-gradient(to top, #cc208e 0%, #6713d2 100%); //linear-gradient(to top, #3300fd 0%, #007eff 100%);
+
+$tm-primary-color-dark: rgba(0, 0, 0, 0.2);
+$tm-primary-color-xdark: rgba(0, 0, 0, 0.3);
+$tm-primary-color-light: rgba(255, 255, 255, 0.1);
+$tm-xsmall-font-size: 0.7rem;
+$tm-letter-spacing-l: 3px;
+$tm-timeline-border-width: 2px;
+$tm-timeline-dot-diameter: 14px;
+$tm-timeline-color: $tm-primary-color;
+
+// Global
+$global-xxlarge-font-size: 2.6111rem;
+$global-xlarge-font-size: 2.222rem;
+$global-large-font-size: 1.778rem;
+$global-medium-font-size: 1.444rem;
+$global-small-font-size: 0.8889rem;
+$global-font-family: 'Work Sans', sans-serif;
+$global-font-size: 18px;
+$global-primary-background: $tm-primary-color;
+$global-link-color: $tm-primary-color;
+$global-inverse-color: #fff;
+
+$inverse-global-color: #fff;
+$inverse-global-muted-color: rgba($inverse-global-color, 0.8);
+$inverse-logo-color: $global-inverse-color;
+$inverse-navbar-nav-item-color: rgba(255, 255, 255, 0.7);
+$inverse-navbar-nav-item-hover-color: $global-inverse-color;
+$inverse-navbar-toggle-color: rgba(255, 255, 255, 0.7);
+$inverse-navbar-toggle-hover-color: $global-inverse-color;
+$inverse-search-navbar-background: $tm-primary-color-dark;
+$inverse-base-code-color: $inverse-global-muted-color;
+$inverse-base-link-color: $inverse-global-muted-color;
+
+// Base
+$base-body-background: $tm-primary-color;
+$base-heading-font-family: 'Nunito Sans', sans-serif;
+$base-body-font-weight: 200;
+$base-heading-font-weight: 200;
+$base-link-hover-text-decoration: none;
+$base-pre-color: $inverse-global-muted-color;
+$base-pre-font-size: 15px;
+$base-pre-line-height: 1.5;
+
+$heading-hero-font-size: 2.222rem;
+$heading-hero-line-height: 1.2;
+$heading-hero-font-size-s: 3.667rem;
+$heading-hero-line-height-s: 1.2;
+$heading-hero-font-size-m: 4.6111rem;
+$heading-hero-line-height-m: 1.2;
+
+$navbar-background: $tm-primary-color;
+$navbar-dropdown-nav-item-color: rgba(255, 255, 255, 0.7);
+$navbar-dropdown-nav-item-hover-color: $global-inverse-color;
+$navbar-nav-item-text-transform: none;
+$search-navbar-font-size: 1.0625rem;
+$subnav-item-text-transform: none;
+
+$container-small-max-width: 800px;
+$progress-background: $tm-primary-color-dark;
+$background-default-background: #fff;
+$table-divider-border: rgba(255, 255, 255, 0.3);
+$container-small-max-width: 740px;
+$container-max-width: 1060px;
+$logo-font-size: 1.2rem;
+$button-default-background: $background-default-background;
+$article-title-font-size: $global-xxlarge-font-size;
+$article-title-line-height: 1.1;
+$card-primary-background: rgba(255, 255, 255, 0.03);
+$card-primary-box-shadow: 0 9px 20px rgba(0,0,0,0.16);
+$card-primary-hover-box-shadow: 0 22px 40px rgba(0,0,0,0.16);

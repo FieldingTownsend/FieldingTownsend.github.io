@@ -1,12 +1,31 @@
-<footer>
-  <div class="footer container column align-items-center justify-content-center">
-    <div class="footer--block text-align-center">
-      <div class="" data-aos="fade-up" data-aos-delay="" data-aos-offset="0">
-        <a href="{{ site.baseurl }}/"><span>Jekyll |</span> {{ site.title }}</a>
-      </div>
-      <div class="by" data-aos="fade-up" data-aos-delay="200" data-aos-offset="0">
-        <a href="https://github.com/gustavoquinalha/jekyll-help-center-theme" target="_blank">Created with jekyll</a>
-      </div>
+<footer class="uk-section uk-text-center uk-text-muted uk-link-muted tm-primary-color-dark uk-margin-xlarge-top">
+    <div class="uk-container uk-container-small">
+
+        <div>
+            <ul class="uk-subnav uk-flex-center">
+                {% for link in site.data.navigation_footer %}
+                    {% if link.url contains 'http' %}
+                        {% assign domain = '' %}
+                    {% else %}
+                        {% assign domain = relative_url %}
+                    {% endif %}
+                    {% if link.url == page.url %}
+                        {% assign current = ' class="uk-active"' %}
+                    {% else %}
+                        {% assign current = null %}
+                    {% endif %}
+                    {% if link.title %}
+                        <li{{ current }}><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank" {% endif %}>{{ link.title }}</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        </div>
+        <div class="uk-margin-medium">
+            <div data-uk-grid class="uk-child-width-auto uk-grid-small uk-flex-center uk-grid">
+                {% include social-networks.html %}
+            </div>
+        </div>
+        <div class="uk-margin-medium uk-text-small copyright">{{ site.footer.copyright }}</div>
+
     </div>
-  </div>
 </footer>

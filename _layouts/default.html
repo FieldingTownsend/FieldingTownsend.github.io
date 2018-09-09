@@ -1,25 +1,18 @@
-{% include head.html %}
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-<body>
-  <div class="">
-    {% include menu.html %}
+    {% include head.html %}
+
+    <body class="uk-light">
+
+    {% include header.html %}
 
     {{ content }}
 
-    {% include footer.html %}
-  </div>
-  <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
-  <script src="{{ site.baseurl }}/assets/js/simple-jekyll-search.min.js"></script>
-  
-  <script>
-    AOS.init();
+    {% include mobile.html %}
 
-    SimpleJekyllSearch({
-      searchInput: document.getElementById('search-input'),
-      resultsContainer: document.getElementById('results-container'),
-      json: '{{ site.baseurl }}/search.json'
-    })
-  </script>
-</body>
+    {% include footer.html %}
+
+    </body>
 
 </html>
