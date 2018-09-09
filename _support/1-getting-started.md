@@ -1,24 +1,29 @@
 ---
-title: Getting Sharted
+title: FT-SM Appliance Issues
 icon: cog
 toc: true
 ---
 
-### Installing the theme
+### Are you having issues with a Fielding Townsend Systems Manager appliance?
 
-Clone the theme [repository](https://github.com/ivanchromjak/jekyll-theme-lite) from GitHub and install the dependencies with [Bundler](http://bundler.io/):
+If you are having issues with your FT-SM appliance we recommend that you restart it.
+At the >ok prompt you can type:
 
 ```bash
-bundle install
+system reset -soft
 ```
 
-Run the following to generate your site:
+When the appliance restarts simply run:
 ```bash
-bundle exec jekyll serve
+system selfcheck -deep
 ```
 
-You can find more on [Deployment Methods](https://jekyllrb.com/docs/deployment-methods/) page on Jekyll website.
+You can find more on the [FT-SM Troubleshooting](https://fieldingtownsend.freshdesk.com/support/solutions) page on the Fielding Townsend Support website.
 
-### Updating the theme
+### Updating the firmware
 
-Download the latest version form your Envato downloads page `https://themeforest.net/downloads` and repeat the installation process.
+Download the latest version of the FT-SM firmware by running the following:
+
+```bash
+system update -all -reset -clearNVR
+```
