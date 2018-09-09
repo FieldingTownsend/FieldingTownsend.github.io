@@ -1,71 +1,28 @@
 ---
-title: Theme Setup
+title: Account Login Issues
 icon: settings
 toc: true
 ---
 
-### Site and author details
+### How to reset a lost or forgotten password
 
-Add your site and author details in `_config.yml`:
-```yaml
-# Site title and description
-title:              Lite
-description:        Helpdesk Jekyll Theme
+An accurate and up-to-date email address and/or phone number is the best step you can take to ensure you never lose access to your account. Take a moment and make sure the email address and/or phone number you have associated with your account is up to date.
 
-# Site base hostname & protocol, e.g. http://example.com
-url:                "https://lite.jekyll.plus"
+### How to change your password while you're logged in
 
-# Site logo, image or text
-brand:
-    image:          logo.svg  # e.g. logo.png, upload logo image file to /assets/img/ folder
-    text:           Lite      # if the above "logo:" image variable  is not set, this text logo is displayed instead
+1.	From your logged in account, click on the profile icon in the upper right hand corner of your screen and select Settings and privacy.
+2.	Click on the Password tab.
+3.	Enter your current password.
+4.	Choose your new password.
+5.	Save your changes by clicking Save changes.
 
-# Default author settings
-author:
-    name:           John Smith
-    github:         username    # Github username for avatar
-```
 
-### Main navigation bar
-Set in the main navigation links in `_data/navigation_header.yml`:
-```yaml
-- title: About
-  url: /about/
-```
+### How to send yourself a password reset via email
 
-### Site footer setup
+1.	From the sign in page on either fte.com, my.fieldingtownsend.com click Forgot password?
+2.	Enter your email address, phone number, or MyFTe username. If you have multiple accounts associated with your phone number, you cannot use your phone number during this step.
+3.	Choose the email address where you want to receive the password reset email.
+4.	Check your email inbox. We will immediately send a message to your account's email address.
+5.	Click the reset link in that email.
+6.	Choose a new password.
 
-Edit copyright notice in `_config.yml`:
-```yaml
-footer:
-    copyright:
-```
-
-Set in the navigation links in `_data/navigation_footer.yml`:
-```yaml
-- title: About
-  url: /about/
-```
-
-### Enabling comments (via Disqus)
-
-Optionally, if you have a Disqus account, you can tell Jekyll to use it to show a comments section below each post. To enable it, add the following lines to your Jekyll site:
-
-```yaml
-disqus:
-    shortname: my_disqus_shortname
-```
-
-You can find out more about Disqus' shortnames [here](https://help.disqus.com/customer/portal/articles/466208).
-
-Comments are enabled by default and will only appear in production, i.e., `JEKYLL_ENV=production`. If you don't want to display comments for a particular post you can disable them by adding `comments: false` to that post's YAML Front Matter.
-
-### Adding Google analytics
-
-To enable Google Anaytics, add the following lines to your Jekyll site:
-
-```yaml
-google_analytics: UA-NNNNNNNN-N
-```
-
-Google Analytics will only appear in production, i.e., `JEKYLL_ENV=production`
