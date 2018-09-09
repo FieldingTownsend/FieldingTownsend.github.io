@@ -15,7 +15,7 @@ baseurl:            ""
 permalink:          /:title/
 
 # Site base hostname & protocol, e.g. http://example.com
-url:                "https://lite.jekyll.plus"
+url:                "http://help.fieldingtownsend.com"
 
 # Site logo, image or text
 brand:
@@ -37,24 +37,24 @@ authors:
 social:
     email:
     website:
-    facebook:       https://www.facebook.com/
+    facebook:       
     flickr:
     dribbble:
     github:
     googleplus:
-    instagram:      https://www.instagram.com/
+    instagram:      
     linkedin:
     pinterest:
-    twitter:        https://twitter.com/
-    vimeo:          https://vimeo.com/
+    twitter:        https://twitter.com/fieldingte
+    vimeo:          
     youtube:
 
 # Twitter share button
-twitter_username: test
+twitter_username: FieldingTe
 
 # Default footer image settings
 footer:
-    copyright:      Made by a <a href="https://ivanchromjak.com/">human</a> somewhere on the planet earth.
+    copyright:      2018 Fielding Townsend LLP and it's licensors.
 
 # Disqus comments shortname, requires Disqus account https://disqus.com/
 disqus:
