@@ -6,11 +6,9 @@ toc: true
 
 ### Product Support
 
-Feel free to fork or clone the theme. I'll Appreciate it if you keep the Author & Github link at footer or give it a Star if you like it. If you come across any issues just open an [issue](https://github.com/ivanchromjak/jekyll-theme-lite/issues).
+If you need any further help you can file a ticket [here](http://help.fieldingtownsend.com/forms).
 
-### Credits and Sources
+### I'm an enterprise customer
 
-- Google analytics https://www.google.com/analytics/
-- Google maps https://www.google.com/maps
-- UIkit front end framework https://getuikit.com/
-- Jekyll CML https://jekyllrb.com/
+Enterprise customers can contact msp@fieldingtownsend.com for direct support.
+If you are not an enterprise customer you will not receive a response.
