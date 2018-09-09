@@ -1,5 +1,5 @@
 ---
-title: Spam and Phishing
+title: Spam and Phishing Tips
 icon: mail
 toc: true
 ---
