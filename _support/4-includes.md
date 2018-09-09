@@ -1,27 +1,16 @@
 ---
-title: Addon Includes
-icon: plus
+title: Spam and Phishing
+icon: mail
 toc: true
 ---
 
-### Google Map Include
+### About fake FTe emails
 
-To display Google map on contact page, add the following in your page content, replacing latitude, longitude and zoom values:
+Fielding Townsend will only send you emails from @fieldingtownsend.com, @email.fieldingtownsend.com or @birchtownsend.co.uk However, some people may receive fake or suspicious emails that look like they were sent by Fielding Townsend. These emails might include malicious attachments or links to spam or phishing websites. Please know that we will never send emails with attachments or request your MyFTe password by email.
 
-{% raw %}
-```yaml
-{% include map.html latitude="40.6700" longitude="-73.9400" zoom="16" %}
-```
-{% endraw %}
+Legitimate support e-mails from FTe will always include a case number in the subject and are always sent from @fieldingtownsend.com addresses.
 
-### Contact Form Include (via FormSpree)
+### If you receive a fake email
 
-To display Google map on contact page, add the following in your page content, replacing latitude, longitude and zoom values:
-
-Submit the form and confirm your email address at [FormSpree](https://formspree.io/). Then add the following include to a page, replacing the email address:
-
-{% raw %}
-```yaml
-{% include formspree.html email="john@company.com" redirect="/thanks" %}
-```
-{% endraw %}
+*	Delete the email from your inbox. Don't download any attachments from these emails.
+*	Find more account security tips in our Help Centre.
