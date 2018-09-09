@@ -20,7 +20,7 @@ url:                "http://help.fieldingtownsend.com"
 # Site logo, image or text
 brand:
     image:          # e.g. logo.png, upload logo image file to /assets/img/ folder
-    text:           ///Support      # if the above "logo:" image variable  is not set, this text logo is displayed instead
+    text:           /// Help Centre     # if the above "logo:" image variable  is not set, this text logo is displayed instead
 
 # Default author settings
 author:

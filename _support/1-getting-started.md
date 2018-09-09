@@ -1,5 +1,5 @@
 ---
-title: Getting Started
+title: Getting Sharted
 icon: cog
 toc: true
 ---
