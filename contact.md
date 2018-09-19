@@ -6,4 +6,4 @@ permalink: /contact/
 
 Contact us below to open a support request.
 
-{% include formspree.html email="t1-customer-services@fieldingtownsend.freshdesk.com" redirect="/thanks" %}
+{% include formspree.html email="msp@fieldingtownsend.com" redirect="/thanks" %}
